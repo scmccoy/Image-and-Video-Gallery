@@ -112,7 +112,7 @@
 					lightBox();
 				}
 			};
-			http.open('GET', `https://www.splashbase.co/api/v1/images/latest`, true);
+			http.open('GET', `http://www.splashbase.co/api/v1/images/latest`, true);
 			http.send();
 		}
 
@@ -142,7 +142,7 @@
 					lightBox();
 				}
 			};
-			http.open('GET', `https://www.splashbase.co/api/v1/images/latest?videos_only=true`, true);
+			http.open('GET', `http://www.splashbase.co/api/v1/images/latest?videos_only=true`, true);
 			http.send();
 		}
 		///////////////////////////////////////////
@@ -175,7 +175,7 @@
 				}
 			};
 			// search: "http://www.splashbase.co/api/v1/images/search", "query" => "laptop" // from site
-			http.open('GET', `https://www.splashbase.co/api/v1/images/search?query="${searchTerm}`, true);
+			http.open('GET', `http://www.splashbase.co/api/v1/images/search?query="${searchTerm}`, true);
 			http.send();
 		}
 
