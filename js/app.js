@@ -112,7 +112,7 @@
 					lightBox();
 				}
 			};
-			http.open('GET', `http://www.splashbase.co/api/v1/images/latest`, true);
+			http.open('GET', `https://www.splashbase.co/api/v1/images/latest`, true);
 			http.send();
 		}
 
