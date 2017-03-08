@@ -7,3 +7,4 @@ _____
 Github Pages :: https://scmccoy.github.io/Image-and-Video-Gallery/
 
 
+Splashbase API endpoint does not work with Github Pages | Clone project and run locally for search results. 
